@@ -1,0 +1,108 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #1dad9b;
+}
+.container {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #9bf4d5;
+
+  box-shadow: 2px 2px 2px #346357;
+}
+h3 {
+  color: #346357;
+}
+h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h3 > img {
+  height: 30px;
+}
+#inputDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.inputBox {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 10px;
+  flex: 1;
+}
+.inputBtn {
+  background-image: url("images/add.png");
+  background-size: cover;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.listContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #346357;
+  padding: 0px 10px;
+}
+
+.listContainer li {
+  user-select: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.listContainer li span {
+  border: none;
+  outline: none;
+  background-color: #9bf4d5;
+  margin: 0%;
+  padding: 0%;
+  height: 20px;
+  width: 20px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.listContainer li .crossBtn {
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+  background-color: #9bf4d5;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.listContainer li .checkBtn {
+    background-image: url("images/check.png");
+    background-size: cover; 
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
